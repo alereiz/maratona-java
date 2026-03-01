@@ -4,7 +4,9 @@ public class Aula02TiposPrimitivos {
     public static void main (String[] args) {
 
         int age = 23;
+        System.out.println("Tenho "+age+" anos.\n");
 
-        System.out.println("Tenho "+age+" anos.");
+        int castingIntToLong = (int) 10000000000L;
+        System.out.println(castingIntToLong);
     }
 }
