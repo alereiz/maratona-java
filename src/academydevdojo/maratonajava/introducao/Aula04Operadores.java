@@ -21,5 +21,21 @@ public class Aula04Operadores {
         System.out.println(num1 - num2);
         System.out.println(num1 * num2);
         System.out.println(num1 / num2);
+
+        //Op. resto (%)
+        System.out.println(num1 % 2+", logo é ímpar");
+
+        //Ops. Relacionais: < > <= >= == !=
+        boolean is2MaiorQue3  = 2 > 3;
+            System.out.println("2 é maior que 3? "+is2MaiorQue3);
+
+        boolean is2MenorQue3  = 2 < 3;
+            System.out.println("2 é menor que 3? "+is2MenorQue3);
+
+        boolean is2Igual3     = 2 == 3;
+            System.out.println("2 é igual a 3? "+is2Igual3);
+
+        boolean is2Diferente3 = 2 != 3;
+            System.out.println("2 é diferente de 3? "+is2Diferente3);
     }
 }
