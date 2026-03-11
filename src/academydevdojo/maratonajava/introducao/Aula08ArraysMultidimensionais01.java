@@ -14,5 +14,12 @@ public class Aula08ArraysMultidimensionais01 {
                 System.out.println(duasD[i][j]);
             }
         }
+        System.out.println("----------");
+
+        for (int[] arrayBase : duasD) {
+            for (int i : arrayBase) {
+                System.out.println(i);
+            }
+        }
     }
 }
