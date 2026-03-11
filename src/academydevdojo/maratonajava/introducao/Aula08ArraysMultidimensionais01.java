@@ -10,7 +10,7 @@ public class Aula08ArraysMultidimensionais01 {
 
         int[][] duasD = new int[3][3];
         for (int i = 0; i < duasD.length; i++) {
-            for (int j = 0; j < duasD[0].length; j++) {
+            for (int j = 0; j < duasD[i].length; j++) {
                 System.out.println(duasD[i][j]);
             }
         }
